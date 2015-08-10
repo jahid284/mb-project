@@ -1,0 +1,721 @@
+
+/* --------------------------------------
+   Button-STYLE
+------------------------------------------*/
+
+.btn{
+	font-size: 15px;
+	font-weight: 700;
+	height: 40px;
+}
+.btn-default{
+	background-color: transparent;
+	border: 0;
+    display: block;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+}
+.btn-primary{
+	background-color: #2c3e50;
+	border-color: transparent;
+	border-radius: 25px;
+	padding: 8px 87px;
+}
+
+
+/* ====================
+    Global-class
+   ===================== */
+
+.mt-60{
+	margin-top: 60px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-175{
+	margin-top: 175px;
+}
+
+
+/* ====================
+    Global-bg
+   ===================== */
+
+.green-bg{
+	background: #00bfa5;
+}
+.red-bg{
+	background: #ef5350;
+}
+.blue-bg{
+	background: #039be5;
+}
+.purple-bg{
+	background: #aa00ff;
+}
+.yellow-bg{
+	background: #f1c40f;
+}
+
+/* ====================
+    Global-color
+   ===================== */
+
+.green-color{
+	color: #00bfa5;
+}
+.red-color{
+	color: #ef5350;
+}
+.blue-color{
+	color: #039be5;
+}
+.purple-color{
+	color: #aa00ff;
+}
+.yellow-color{
+	color: #f1c40f;
+}
+
+
+/*Title-header*/
+.title-header{
+	margin-top: 80px;
+	margin-bottom: 22px;
+}
+.title-header h2{
+	font-size: 20px;
+	color: #bdbdbd;
+	text-transform: capitalize;
+}
+
+
+/* ======================================
+	counterOne-Start
+   ====================================== */
+
+.counterOne .counter-count{
+	padding: 60px 45px;
+	position: relative;
+}
+.counterOne .counter-count::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #00bfa5;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.counterOne .counter-count::after{
+	content: "";
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    width: 80%;
+    height: 76%;
+    margin: 0 auto;
+	border: 3px solid #1de9b6;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+}
+.counterOne .counter-count::before,
+.counterOne .counter-count::after{
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;
+}
+.counterOne .counter-count:hover::before,
+.counterOne .counter-count:hover::after{
+	opacity: 1;
+	visibility: visible;
+}
+.counterOne .counter-count .counter-number{
+	font-size: 90px;
+	font-weight: 300;
+	color: #263238;
+    line-height: 40px;
+	z-index: 2;
+}
+.counterOne .counter-count .counter-text{
+	font-size: 24px;
+	font-weight: 600;
+	color: #00bfa5;
+	text-transform: uppercase;
+    margin-top: 5px;
+    z-index: 2;
+}
+.counterOne .counter-count .icon-text{
+	position: relative;
+	left: 25px;
+    top: 6px;
+}
+.counterOne .counter-count .icon-text::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -8px;
+	width: 50px;
+	height: 50px;
+	background: url(../../assets/img/counter-piechart/logo.png);
+	background-repeat: no-repeat;
+}
+.counterOne .counter-count:hover .icon-text::before{
+	background: url(../../assets/img/counter-piechart/logo-2.png);
+	background-repeat: no-repeat;
+}
+.counterOne .counter-count:hover .counter-text{
+	color: #ffffff;
+}
+.counterOne .counter-count .counter-text img{
+	margin-right: 10px;
+}
+@media (min-width : 992px) and (max-width : 1199px) {
+	.counterOne .counter-count .icon-text::before{
+		left: -26px;
+		top: -4px;
+	}
+}
+@media (min-width : 768px) and (max-width : 991px) {
+	.counterOne .counter-count .icon-text::before{
+		left: 43px;
+		top: -4px;
+	}
+}
+@media (max-width : 767px) {
+	.counterOne .counter-count .icon-text::before{
+		visibility: hidden;
+	}
+	.counterOne .counter-count .icon-text{
+		left: 0;
+	}
+}
+
+
+
+/* ======================================
+	counterOne-End
+   ====================================== */
+
+
+
+/* ======================================
+	counterOne-Start
+   ====================================== */
+
+.counterTwo .counter-count{
+	padding: 130px 45px 30px;
+	background: url(../../assets/img/counter-piechart/img-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+@media(max-width: 991px){
+	.counterTwo .counter-count{
+		margin-bottom: 50px;
+	}
+}
+.counterTwo .counter-count .counter-number{
+	font-size: 90px;
+	font-weight: 300;
+	color: #263238;
+    line-height: 40px;
+}
+.counterTwo .counter-count .counter-text{
+	font-size: 24px;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+    margin-top: 5px;
+}
+.counterTwo .counter-count .icon-text{
+	position: relative;
+    top: 6px;
+    left: 0;
+}
+.counterTwo .counter-count:hover .icon-text{
+	left: 12px;
+}
+.counterTwo .counter-count .icon-text::before{
+	content: "\f105";
+	font-family: 'Fontawesome';
+	position: absolute;
+	font-size: 22px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	border-radius: 50%;
+	color: #3fcfbb;
+	background: #ffffff;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+.counterTwo .counter-count:hover .icon-text::before{
+	opacity: 1;
+	visibility: visible;
+}
+.counterTwo .counter-count .icon-text,
+.counterTwo .counter-count .icon-text::before,
+.counterTwo .logo-text::before,
+.counterTwo .logo-text .counter-count .counter-text{
+	-webkit-transition: .3s;
+	   -moz-transition: .3s;
+	    -ms-transition: .3s;
+	     -o-transition: .3s;
+	        transition: .3s;
+}
+.counterTwo .logo-text{
+	padding: 20px;
+	position: relative;
+}
+.counterTwo .logo-text::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #00bfa5;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+.counterTwo .logo-text:hover::before{
+	opacity: 1;
+	visibility: visible;
+}
+.counterTwo .logo-text .counter-count{
+	padding: 130px 45px 30px;
+	background: url(../../assets/img/counter-piechart/logo-3.png);
+	background-repeat: no-repeat;
+    background-position: center 0;
+    border: 3px solid transparent;
+
+    -webkit-transition: .1s;
+	   -moz-transition: .1s;
+	    -ms-transition: .1s;
+	     -o-transition: .1s;
+	        transition: .1s;
+}
+}
+.counterTwo .logo-text:hover .counter-count{
+	background: url(../../assets/img/counter-piechart/bg-1.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+.counterTwo .logo-text:hover .counter-count{
+	border: 3px solid #1de9b6;
+}
+.counterTwo .logo-text .counter-count .counter-text{
+	color: #00bfa5;
+}
+.counterTwo .logo-text:hover .counter-count .counter-text{
+	color: #ffffff;
+}
+@media(min-width: 992px) and (max-width: 1199px) {
+	.counterTwo .logo-text{
+		padding: 0;
+	}
+	.counterTwo .counter-count .icon-text::before{
+		left: -48px;
+	}
+	.counterTwo .counter-count:hover .icon-text::before{
+		left: -28px;
+	}
+}
+@media (min-width : 768px) and (max-width : 991px) {
+	.counterTwo .counter-count:hover .icon-text::before{
+		left: 38px;
+	}
+}
+@media (max-width : 766px) {
+	.counterTwo .counter-count:hover .icon-text{
+		left: 0;
+	}
+	.counterTwo .counter-count:hover .icon-text::before{
+		visibility: hidden;
+		opacity: 0;
+	}
+}
+
+
+
+/* ======================================
+	counterTwo-End
+   ====================================== */
+
+
+
+/* ======================================
+	counterThree-Start
+   ====================================== */
+
+.counterThree .chart-one,
+.counterThree .chart-two,
+.counterThree .chart-three{
+    position: relative;
+    margin-bottom: 15px;
+}
+.counterThree .percent {
+    position: absolute;
+    top: 33%;
+    left: 0;
+    right: 0;
+    font-size: 78px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #313131;
+    letter-spacing: 3px;
+}
+.counterThree .our-progress h2{
+	font-size: 20px;
+	font-weight: 700;
+	color: #00bfa5;
+	text-transform: uppercase;
+	position: absolute;
+    top: 54%;
+    right: 0;
+    left: 0;
+}
+.counterThree .green-bg{
+	border-radius: 50%;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.counterThree .green-bg h2{
+	color: #ffffff;
+    top: 60%;
+}
+.counterThree .red-bg{
+	border-radius: 50%;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+.counterThree .red-bg .percent{
+	color: #ffccbc;
+}
+.counterThree .red-bg h2{
+	color: #832a28;
+    top: 60%;
+}
+
+/* ======================================
+	counterThree-End
+   ====================================== */
+
+
+
+/* ======================================
+	counterFour-Start
+   ====================================== */
+
+.counterFour .chart-one,
+.counterFour .chart-two,
+.counterFour .chart-three{
+    position: relative;
+    margin-bottom: 15px;
+}
+.counterFour .percent {
+    position: absolute;
+    top: 33%;
+    left: 0;
+    right: 0;
+    font-size: 78px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #313131;
+    letter-spacing: 3px;
+    margin-left: 45px;
+}
+.counterFour .our-progress h2{
+	font-size: 20px;
+	font-weight: 700;
+	color: #00bfa5;
+	text-transform: uppercase;
+	position: absolute;
+    top: 54%;
+    right: 0;
+    left: 0;
+}
+.counterFour .green-bg{
+	border-radius: 50%;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+.counterFour .green-bg h2{
+	color: #ffffff;
+    top: 60%;
+}
+.counterFour .red-bg{
+	border-radius: 50%;
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+.counterFour .red-bg .percent{
+	color: #ffccbc;
+}
+.counterFour .red-bg h2{
+	color: #832a28;
+    top: 60%;
+}
+
+.counterFour .percent:after {
+    content: '%';
+    font-size: 59px;
+    font-weight: 400;
+    color: #b0bec5;
+    position: absolute;
+    left: 25px;
+}
+.counterFour .green-bg .percent:after {
+    left: -10px;
+    color: #5ffcd7;
+}
+.counterFour .red-bg .percent:after {
+    left: 38px;
+    color: #f5a5a4;
+}
+@media (min-width : 992px) and (max-width : 1199px) {
+	.counterFour .percent:after{
+		left: 0;
+	}
+	.counterFour .red-bg .percent:after{
+	    left: 12px;
+	}
+	
+}
+@media(min-width: 768px) and (max-width: 991px) {
+	.counterFour .percent:after{
+		left: 65px;
+	}
+	.counterFour .red-bg .percent:after{
+	    left: 80px;
+	}
+}
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+	
+}
+@media(max-width: 767px) {
+	.counterFour .our-progress{
+		margin-bottom: 50px;
+	}
+	.counterFour .percent:after{
+		opacity: 0;
+		visibility: hidden;
+	}
+	.counterFour .percent{
+		margin-left: 0;
+	}
+
+}
+
+/* ======================================
+	counterFour-End
+   ====================================== */
+
+
+
+/* ======================================
+	progressOne-Start
+   ====================================== */
+
+.progressOne .progress-item{
+	position: relative;
+}
+.progressOne .progress-title{
+	font-size: 14px;
+	font-weight: 700;
+}
+.progressOne .progress {
+    height: 5px;
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 0;
+}
+.progressOne .progress-bar {
+    box-shadow: none;
+    text-align: right;
+}
+.progressOne .progress-percent {
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    top: 28px;
+}
+.progress .progress-bar.progress-bar-dealy {
+
+    -webkit-transition: width .8s ease-in-out;
+       -moz-transition: width .8s ease-in-out;
+        -ms-transition: width .8s ease-in-out;
+         -o-transition: width .8s ease-in-out;
+            transition: width .8s ease-in-out;
+}
+
+/* ======================================
+	progressOne-End
+   ====================================== */
+
+
+
+/* ======================================
+	progressTwo-Start
+   ====================================== */
+
+.progressTwo .progressBar{
+  height:5px;
+  background:#ffffff;
+  overflow:hidden;
+  white-space:nowrap;
+  font-size:0;
+} 
+.progressTwo .colours span{
+  display: inline-block;
+  height:100%;
+}
+.progressTwo .colours{
+  margin-top:-4px;
+  z-index:-1;
+  height:9px;
+  overflow:hidden;
+
+  -webkit-animation: animation 2s infinite alternate ease-in-out;
+     -moz-animation: animation 2s infinite alternate ease-in-out;
+      -ms-animation: animation 2s infinite alternate ease-in-out;
+       -o-animation: animation 2s infinite alternate ease-in-out;
+          animation: animation 2s infinite alternate ease-in-out;
+          animation-iteration-count: 2;
+}
+
+.progressTwo .border-text,
+.progressTwo .percent{
+	font-size: 13px;
+    font-weight: 700;
+}
+.progressTwo .border-text .text-one,
+.progressTwo .border-text .text-two,
+.progressTwo .border-text .text-three,
+.progressTwo .percent .percent-one,
+.progressTwo .percent .percent-two,
+.progressTwo .percent .percent-three{
+	width: 25%;
+	display: inline-block;
+}
+
+/************ Animation ************/
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animation {
+    0%   {width:0;}
+    100% {width:100%;}
+}
+
+/* Standard syntax */
+@keyframes animation {
+    0%   {width:0;}
+    100% {width:100%;}
+}
+
+/* ======================================
+	progressTwo-End
+   ====================================== */
+
+
+
+/* ======================================
+	progressThree-Start
+   ====================================== */
+
+.progressThree .progress-item{
+	position: relative;
+	margin-bottom: 50px;
+}
+.progressThree .progress-title{
+	font-size: 14px;
+	font-weight: 700;
+}
+.progressThree .progress {
+    background-color: #ffffff;
+    box-shadow: none;
+    border-radius: 0;
+}
+.progressThree .item-one .progress{
+	height: 10px;
+}
+.progressThree .item-two .progress{
+	height: 15px;
+}
+.progressThree .item-three .progress{
+	height: 20px;
+}
+.progressThree .progress-bar {
+    box-shadow: none;
+    text-align: right;
+}
+.progressThree .progress-percent {
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+}
+.progressThree .progress .progress-bar.progress-bar-dealy {
+
+    -webkit-transition: width .8s ease-in-out;
+       -moz-transition: width .8s ease-in-out;
+        -ms-transition: width .8s ease-in-out;
+         -o-transition: width .8s ease-in-out;
+            transition: width .8s ease-in-out;
+}
+
+/* ======================================
+	progressThree-End
+   ====================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* subscribe */
+
+.subscribe-wrapper .btn-default{
+	display: inline-block;
+	line-height: 0;
+}

@@ -1,0 +1,329 @@
+
+/*page-title-section one*/
+.page-title-section-one {
+	background: url(../img/page-header-bg.jpg);
+	background-size: cover;
+	margin-bottom: 40px;
+}
+.page-title-section-one .page-header-wrapper .page-header {
+  padding-bottom: 12px;
+  margin: 42px 0 30px;
+  border-bottom: 0;
+  position: relative;
+}
+.page-title-section-one .page-header-wrapper .page-header::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background: #2fc1a4;
+}
+.page-title-section-one .page-header-wrapper .page-header h1{
+	font-size: 34px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0;
+}
+
+.page-title-section-one .breadcrumb {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 5px 15px;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: rgba(38, 44, 82, 0.5);
+  border-radius: 3px 3px 0 0;
+}
+
+.page-title-section-one .breadcrumb a,
+.page-title-section-one .breadcrumb>.active {
+  color: #fff;
+}
+.page-title-section-one .breadcrumb a:hover {
+	color: #1abc9c;
+}
+/*page-title-section one end*/ 
+
+
+
+
+
+
+/*page-title-section two*/
+.page-title-section-two{
+	background: #fff;
+	padding: 20px 0;
+	margin-bottom: 40px;
+}
+.page-title-section-two .page-header-wrapper .page-header {
+  padding-bottom: 12px;
+  margin: 42px 0 35px;
+  border-bottom: 0;
+  position: relative;
+  float: left;
+}
+.page-title-section-two .page-header-wrapper .page-header::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background: #2fc1a4;
+}
+.page-title-section-two .page-header-wrapper .page-header h1{
+	font-size: 34px;
+	font-weight: 400;
+	color: #546e7a;
+	margin: 0;
+}
+
+.page-title-section-two .breadcrumb {
+  float: right;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 63px;
+  list-style: none;
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+.page-title-section-two .breadcrumb a,
+.page-title-section-two .breadcrumb>.active {
+  color: #546e7a;
+}
+
+.page-title-section-two .breadcrumb a:hover {
+	color: #1abc9c;
+}
+
+@media (max-width : 479px) {
+  .page-title-section-two .breadcrumb {
+    margin-top: 0px;
+    float: left;
+  }
+
+}
+/*page-title-section two end*/
+
+
+
+/*page-title-section three*/
+.page-title-section-three{
+	background: #fff;
+	padding: 20px 0;
+	margin-bottom: 40px;
+}
+.page-title-section-three .page-header-wrapper .page-header {
+  padding-bottom: 12px;
+  margin: 42px 0 0px;
+  position: relative;
+}
+.page-title-section-three .page-header-wrapper .page-header::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  left: 47%;
+  bottom: 0;
+  background: #2fc1a4;
+}
+.page-title-section-three .page-header-wrapper .page-header h1{
+	font-size: 34px;
+	font-weight: 400;
+	color: #546e7a;
+	margin: 0;
+}
+
+.page-title-section-three .breadcrumb {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 5px 15px;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 3px 3px 0 0;
+}
+
+.page-title-section-three .breadcrumb a,
+.page-title-section-three .breadcrumb>.active {
+  color: #546e7a;
+}
+
+.page-title-section-three .breadcrumb a:hover {
+	color: #1abc9c;
+}
+
+@media (max-width : 479px) {
+  .page-title-section-three .page-header.text-center {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .page-title-section-three .page-header-wrapper .page-header::after {
+    left: 0;
+  }
+
+}
+/*page-title-section three end*/
+
+
+
+
+/*page-title-section four*/
+.page-title-section-four{
+	background: #fff;
+	padding: 40px 0 0;
+	margin-bottom: 40px;
+}
+
+.page-title-section-four .page-header-wrapper{
+	position: relative;
+}
+
+.page-title-section-four .breadcrumb-option {
+	position: absolute;
+	top: 46px;
+	left: 0;
+}
+
+.page-title-section-four .page-header {
+  margin: 40px 0 0px;
+  border-bottom: 0;
+  position: relative;
+}
+.page-title-section-four .page-header::after {
+  content: "";
+  position: absolute;
+  width: 145px;
+  height: 3px;
+  right: 0%;
+  bottom: 0;
+  background: #2fc1a4;
+}
+.page-title-section-four .page-header h1{
+	font-size: 34px;
+	font-weight: 400;
+	color: #546e7a;
+	margin: 0;
+	  padding-bottom: 30px;
+}
+
+.page-title-section-four .breadcrumb {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 5px 15px;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 3px 3px 0 0;
+}
+
+.page-title-section-four .breadcrumb a{
+  color: #546e7a;
+}
+
+.page-title-section-four .breadcrumb a:hover,
+.page-title-section-four .breadcrumb>.active  {
+	color: #1abc9c;
+}
+
+@media (max-width : 479px) {
+    .page-title-section-four .page-header.pull-right {
+      float: left !important;
+      margin-top: 0px;
+      margin-bottom: 40px;
+      padding: 0;
+    }
+
+  .page-title-section-four .page-header-wrapper .page-header::after {
+    left: 0;
+  }
+
+  .page-title-section-four .breadcrumb-option {
+    top: 75px;
+  }
+
+  .page-title-section-four .page-header h1 {
+      margin: 0 0 40px;
+      padding-bottom: 10px;
+  }
+
+  .page-title-section-four .page-header-wrapper .page-header::after {
+    left: 0;
+    bottom: 43px;
+  }
+
+
+}
+/*page-title-section four end*/
+
+
+
+
+/*page-title-section-five*/
+.page-title-section-five{
+	background: #263238;
+	padding: 20px 0;
+	margin-bottom: 40px;
+}
+.page-title-section-five .page-header-wrapper .page-header {
+  padding-bottom: 12px;
+  margin: 42px 0 35px;
+  border-bottom: 0;
+  position: relative;
+  float: left;
+}
+.page-title-section-five .page-header-wrapper .page-header::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background: #1abc9c;
+}
+.page-title-section-five .page-header-wrapper .page-header h1{
+	font-size: 34px;
+	font-weight: 400;
+	color: #1abc9c;
+	margin: 0;
+}
+
+.page-title-section-five .breadcrumb {
+  float: right;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 63px;
+  list-style: none;
+  margin-bottom: 0;
+  background-color: #263238;
+}
+
+.page-title-section-five .breadcrumb a,
+.page-title-section-five .breadcrumb>.active {
+  color: #90a4ae;
+}
+
+.page-title-section-five .breadcrumb a:hover {
+	color: #1abc9c;
+}
+@media (max-width : 479px) {
+  .page-title-section-five .breadcrumb {
+    margin-top: 0px;
+    float: left;
+  }
+
+}
+/*page-title-section two end*/
+
+
+@media (max-width : 479px) {
+  
+
+}

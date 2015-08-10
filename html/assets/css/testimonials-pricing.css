@@ -1,0 +1,1210 @@
+
+/* --------------------------------------
+   Button-STYLE
+------------------------------------------*/
+
+.btn{
+	font-size: 15px;
+	font-weight: 700;
+	height: 40px;
+}
+.btn-default{
+	background-color: transparent;
+	border: 0;
+    display: block;
+    border-radius: 0;
+    color: #ffffff;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+}
+.btn-primary{
+	background-color: #2c3e50;
+	border-color: transparent;
+	border-radius: 25px;
+	padding: 8px 87px;
+}
+@media (min-width : 992px) and (max-width : 1199px) {
+	.btn-primary{
+		padding: 8px 50px;
+	}
+
+	
+}
+
+
+/* ====================
+    Global-class
+   ===================== */
+
+.mt-60{
+	margin-top: 60px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-175{
+	margin-top: 175px;
+}
+
+
+/* ====================
+    Global-bg
+   ===================== */
+
+.purple-bg{
+	background: #9b59b6;
+}
+.yellow-bg{
+	background: #f1c40f;
+}
+.green-bg{
+	background: #1abc9c;
+}
+.red-bg{
+	background: #e74c3c;
+}
+.blue-bg{
+	background: #1976d2;
+}
+
+
+/* ====================
+    Global-border
+   ===================== */
+
+.purple-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 86%;
+    height: 5px;
+    background: #9b59b6;
+}
+.yellow-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 86%;
+    height: 5px;
+    background: #f1c40f;
+}
+.green-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 86%;
+    height: 5px;
+    background: #1abc9c;
+}
+.red-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 86%;
+    height: 5px;
+    background: #e74c3c;
+}
+
+
+
+
+/*Title-header*/
+.title-header{
+	margin-top: 80px;
+	margin-bottom: 22px;
+}
+.title-header h3{
+	font-size: 20px;
+	color: #bdbdbd;
+	text-transform: capitalize;
+}
+
+
+/* ======================================
+	TestimonialOne-Start
+   ====================================== */
+
+.testimonialOne blockquote{
+    padding: 0;
+    font-size: 13px;
+    line-height: 24px;
+    border-left: 0;
+    position: relative;
+}
+.testimonialOne blockquote p{
+	color: #667a84;
+}
+.testimonialOne blockquote::before{
+	content: "";
+}
+.testimonialOne .testimonial-left blockquote::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 92%;
+	height: 5px;
+	background: #26c6da;
+}
+.testimonialOne .head{
+	background: #ffffff;
+	padding: 33px 22px;
+	text-align: left;
+    border-bottom: 3px solid #e3e7e8;
+	position: relative;
+}
+.testimonialOne .head::before{
+	content: "";
+    position: absolute;
+    left: 31px;
+    bottom: -28px;
+    border-top: 28px solid #e3e7e8;
+    border-right: 28px solid transparent;
+}
+.testimonialOne .head::after{
+	content: "";
+	position: absolute;
+	left: 30px;
+	bottom: -25px;
+	border-top: 25px solid #fffff8;
+	border-right: 25px solid transparent;
+}
+.testimonialOne blockquote footer{
+	margin-top: 40px;
+}
+.testimonialOne blockquote footer:before {
+    content: "";
+}
+.testimonialOne blockquote footer {
+    font-size: 14px;
+    font-weight: 600;
+    color: #263238;
+    text-transform: capitalize;
+    text-align: left;
+}
+.testimonialOne blockquote footer img{
+	float: left;
+	margin-right: 15px;
+}
+.testimonialOne blockquote footer .name{
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	line-height: 15px;
+	padding-top: 9px;
+}
+
+@media(max-width: 991px){
+	.testimonialOne .testimonial-left{
+		margin-bottom: 50px;
+	}
+}
+
+.testimonialOne .testimonial-right blockquote .media-left{
+	font-size: 14px;
+	font-weight: 600;
+    color: #263238;
+    text-transform: capitalize;
+    padding-right: 40px;
+}
+.testimonialOne .testimonial-right blockquote .media .name{
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	line-height: 15px;
+	padding-top: 9px;
+}
+.testimonialOne .testimonial-right blockquote .media-body{
+	padding: 33px 22px;
+	text-align: left;
+    border-bottom: 3px solid #e3e7e8;
+	position: relative;
+	background: #ffffff;
+	overflow: visible;
+}
+.testimonialOne .testimonial-right blockquote .media-body::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 92%;
+	height: 5px;
+	background: #9b59b6;
+}
+
+.testimonialOne .testimonial-right blockquote .media-body::after{
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 20px;
+    border-top: 23px solid #ffffff;
+    border-left: 24px solid transparent;
+}
+
+/* ======================================
+	TestimonialOne-Start-End
+   ====================================== */
+
+
+/* ======================================
+	TestimonialTwo-Start
+   ====================================== */
+
+.testimonialTwo blockquote{
+    padding: 0;
+    font-size: 13px;
+    line-height: 24px;
+    border-left: 0;
+    position: relative;
+}
+.testimonialTwo blockquote p{
+	color: #667a84;
+}
+.testimonialTwo blockquote::before{
+	content: "";
+}
+.testimonialTwo blockquote::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 96%;
+	height: 5px;
+	background: #f1c40f;
+}
+.testimonialTwo .head{
+	background: #ffffff;
+	padding: 33px 22px;
+	text-align: left;
+    border-bottom: 3px solid #e3e7e8;
+	position: relative;
+}
+.testimonialTwo .head::before{
+	content: "";
+    position: absolute;
+    left: 31px;
+    bottom: -28px;
+    border-top: 28px solid #e3e7e8;
+    border-right: 28px solid transparent;
+}
+.testimonialTwo .head::after{
+	content: "";
+	position: absolute;
+	left: 30px;
+	bottom: -25px;
+	border-top: 25px solid #fffff8;
+	border-right: 25px solid transparent;
+}
+.testimonialTwo blockquote footer{
+	margin-top: 40px;
+}
+.testimonialTwo blockquote footer:before {
+    content: "";
+}
+.testimonialTwo blockquote footer {
+    font-size: 14px;
+    font-weight: 600;
+    color: #263238;
+    text-transform: capitalize;
+    text-align: left;
+}
+.testimonialTwo blockquote footer img{
+	float: left;
+	margin-right: 15px;
+}
+.testimonialTwo blockquote footer .name{
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	line-height: 15px;
+	padding-top: 9px;
+}
+
+/* ======================================
+	TestimonialTwo-End
+   ====================================== */
+
+
+
+/* ======================================
+	TestimonialThree-Start
+   ====================================== */
+
+.testimonialThree blockquote{
+    padding: 0;
+    font-size: 13px;
+    line-height: 24px;
+    border-left: 0;
+    position: relative;
+}
+.testimonialThree blockquote p{
+	color: #667a84;
+}
+.testimonialThree blockquote::before{
+	content: "";
+}
+.testimonialThree blockquote .media-left{
+	font-size: 14px;
+	font-weight: 600;
+    color: #263238;
+    text-transform: capitalize;
+    padding-right: 40px;
+}
+.testimonialThree blockquote .media .name{
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	line-height: 15px;
+	padding-top: 9px;
+}
+.testimonialThree blockquote .media-body{
+	padding: 33px 22px;
+	text-align: left;
+    border-bottom: 3px solid #e3e7e8;
+	position: relative;
+	background: #ffffff;
+	overflow: visible;
+}
+.testimonialThree blockquote .media-body::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 96%;
+	height: 5px;
+	background: #ff3d00;
+}
+
+.testimonialThree blockquote .media-body::after{
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 20px;
+    border-top: 23px solid #ffffff;
+    border-left: 24px solid transparent;
+}
+
+/* ======================================
+	TestimonialThree-End
+   ====================================== */
+
+
+
+/* ======================================
+	TestimonialFour-Start
+   ====================================== */
+
+.testimonialFour blockquote{
+    padding: 0;
+    font-size: 22px;
+    line-height: 30px;
+    border-left: 0;
+    position: relative;
+}
+.testimonialFour blockquote p{
+	color: #263238;
+    margin-left: 52px;
+}
+.testimonialFour blockquote::before{
+    content: "\f10e";
+    font-family: FontAwesome;
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    color: #8fa3ae;
+    z-index: 1;
+}
+.testimonialFour blockquote::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 96%;
+	height: 5px;
+	background: #8fa3ae;
+}
+.testimonialFour .head{
+	background: #ffffff;
+	padding: 33px 22px;
+	text-align: left;
+    border-bottom: 3px solid #e3e7e8;
+	position: relative;
+}
+.testimonialFour .head::before{
+	content: "";
+    position: absolute;
+    left: 31px;
+    bottom: -28px;
+    border-top: 28px solid #e3e7e8;
+    border-right: 28px solid transparent;
+}
+.testimonialFour .head::after{
+	content: "";
+	position: absolute;
+	left: 30px;
+	bottom: -25px;
+	border-top: 25px solid #fffff8;
+	border-right: 25px solid transparent;
+}
+.testimonialFour blockquote footer{
+	margin-top: 40px;
+}
+.testimonialFour blockquote footer:before {
+    content: "";
+}
+.testimonialFour blockquote footer {
+    font-size: 14px;
+    font-weight: 600;
+    color: #263238;
+    text-transform: capitalize;
+    text-align: left;
+}
+.testimonialFour blockquote footer img{
+	float: left;
+	margin-right: 15px;
+}
+.testimonialFour blockquote footer .name{
+	font-size: 16px;
+	font-weight: 700;
+	display: block;
+	line-height: 15px;
+	padding-top: 9px;
+}
+
+/* ======================================
+	TestimonialFour-End
+   ====================================== */
+
+
+/* ======================================
+	PricetableOne-Start
+   ====================================== */
+
+@media(max-width: 991px){
+	.pricetableOne .pricetable-wraper{
+		margin-bottom: 50px;
+	}
+}
+.pricetableOne .pricetable-wraper{
+	background: #ffffff;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #e3e7e8;
+    position: relative;
+}
+.pricetableOne .pricing-head{
+	padding: 40px 20px 25px;
+}
+.pricetableOne .pricing-head h3{
+    font-family: 'Gotham-bold';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #000;
+	margin-bottom: 3px;
+	text-transform: uppercase;
+}
+.pricetableOne .pricing-head p{
+	font-family: 'Gotham-book';
+	font-size: 16px;
+	color: #ffffff;
+    margin-bottom: 12px;
+}
+.pricetableOne .pricing-head .price {
+    display: block;
+    font-size: 53px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Gotham-Bold';
+}
+.pricetableOne .pricing-head .price sup{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	top: 0;
+}
+.pricetableOne .pricing-head .price sub{
+	font-size: 14px;
+	color: #010101;
+	text-transform: uppercase;
+}
+.pricetableOne .featured-priceing{
+	position: relative;
+	top: -25px;
+}
+.pricetableOne .featured-priceing .price sup{
+	font-size: 63px;
+}
+.pricetableOne .featured-priceing .price{
+	font-size: 80px;
+}
+.pricetableOne .featured-priceing p{
+	margin-bottom: 37px;
+} 
+.pricetableOne .pricing-list{
+	background: #ffffff;
+	padding: 13px 25px 36px;
+}
+.pricetableOne .pricing-list li{
+	border-bottom: 1px solid #efefef;
+	padding: 6px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #667a84;
+}
+.pricetableOne .pricing-list li:last-child{
+	border-bottom: 0;
+}
+
+/* ======================================
+	PricetableOne-End
+   ====================================== */
+
+
+
+/* ======================================
+	PricetableTwo-Start
+   ====================================== */
+
+@media(max-width: 991px){
+	.pricetableTwo .pricetable-wraper{
+		margin-bottom: 50px;
+	}
+}
+.pricetableTwo .pricetable-wraper{
+	background: #ffffff;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #e3e7e8;
+    position: relative;
+}
+.pricetableTwo .pricing-head{
+	padding: 40px 25px 25px;
+}
+.pricetableTwo .pricing-head h3{
+    font-family: 'Gotham-bold';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #000;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.pricetableTwo .pricing-head p{
+	font-family: 'Gotham-book';
+	font-size: 16px;
+	color: #ffffff;
+}
+.pricetableTwo .pricing-head .price {
+    display: block;
+    font-size: 53px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Gotham-Bold';
+}
+.pricetableTwo .pricing-head .price sup{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	top: 0;
+}
+.pricetableTwo .pricing-head .price sub{
+	font-size: 14px;
+	font-weight: 600;
+	color: #010101;
+	text-transform: uppercase;
+}
+.pricetableTwo .featured-priceing{
+	position: relative;
+	top: -21px;
+}
+.pricetableTwo .featured-priceing .price sup{
+	font-size: 63px;
+}
+.pricetableTwo .featured-priceing .price{
+	font-size: 80px;
+}
+.pricetableTwo .featured-priceing p{
+	margin-bottom: 32px;
+} 
+.pricetableTwo .pricing-list{
+	background: #ffffff;
+	padding: 13px 25px 36px;
+}
+.pricetableTwo .pricing-list li{
+	border-bottom: 1px solid #efefef;
+	padding: 6px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #667a84;
+}
+.pricetableTwo .pricing-list li:last-child{
+	border-bottom: 0;
+}
+
+/* ======================================
+	PricetableTwo-End
+   ====================================== */
+
+
+
+/* ======================================
+	PricetableThree-Start
+   ====================================== */
+
+.pricetableThree .pricetable-wraper{
+	background: #ffffff;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #e3e7e8;
+    position: relative;
+}
+.pricetableThree .pricing-head{
+	padding: 40px 25px 25px;
+}
+.pricetableThree .pricing-head h3{
+    font-family: 'Gotham-bold';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 25px;
+	color: #000;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.pricetableThree .pricing-head p{
+	font-family: 'Gotham-book';
+	font-size: 16px;
+	color: #ffffff;
+}
+.pricetableThree .pricing-head .price {
+    display: block;
+    font-size: 53px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Gotham-Bold';
+}
+.pricetableThree .pricing-head .price sup{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	top: 0;
+}
+.pricetableThree .pricing-head .price sub{
+	font-size: 14px;
+	font-weight: 600;
+	color: #010101;
+	text-transform: uppercase;
+}
+.pricetableThree .featured-priceing{
+	position: relative;
+	top: -21px;
+}
+.pricetableThree .featured-priceing .price sup{
+	font-size: 63px;
+}
+.pricetableThree .featured-priceing .price{
+	font-size: 80px;
+}
+.pricetableThree .featured-priceing p{
+	margin-bottom: 32px;
+} 
+.pricetableThree .pricing-list{
+	background: #ffffff;
+	padding: 13px 25px 36px;
+}
+.pricetableThree .pricing-list li{
+	border-bottom: 1px solid #efefef;
+	padding: 6px 0;
+	font-size: 15px;
+	font-weight: 600;
+	color: #667a84;
+}
+.pricetableThree .pricing-list li:last-child{
+	border-bottom: 0;
+}
+
+/* ======================================
+	PricetableThree-End
+   ====================================== */
+
+
+
+/* ======================================
+	PricetableFour-Start
+   ====================================== */
+
+@media(max-width: 991px){
+	.pricetableFour .pricetable-wraper{
+		margin-bottom: 50px;
+	}
+}
+.pricetableFour .pricetable-wraper{
+	background: #ffffff;
+    position: relative;
+}
+.pricetableFour .pricing-head{
+	padding: 25px 18px;
+}
+.pricetableFour .pricing-head h3{
+	font-family: 'Gotham-bold';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #ffffff;
+	margin-bottom: 21px;
+	text-transform: uppercase;
+	position: relative;
+}
+.pricetableFour .blue-table .pricing-head h3{
+	font-size: 50px;
+    margin-bottom: 29px;
+}
+.pricetableFour .pricing-head h3::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 52px;
+	width: 55px;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.31);
+}
+.pricetableFour .blue-table .pricing-head h3::before{
+	top: 60px;
+}
+.pricetableFour .pricing-head p{
+	font-family: 'Gotham-book';
+	font-size: 16px;
+	color: #ffffff;
+    margin-bottom: 36px;
+}
+.pricetableFour .pricing-head .price {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Gotham-bold';
+}
+.pricetableFour .pricing-head .price sup{
+	font-family: 'Gotham-book';
+	top: 0;
+}
+.pricetableFour .pricing-head .price sub{
+	font-size: 15px;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+    bottom: 12px;
+    left: 7px;
+}
+.pricetableFour .featured-priceing{
+	position: relative;
+	top: -64px;
+}
+.pricetableFour .featured-priceing .price sup{
+	font-size: 63px;
+}
+.pricetableFour .featured-priceing .price{
+	font-size: 104px;
+}
+.pricetableFour .featured-priceing p{
+	margin-bottom: 32px;
+} 
+.pricetableFour .pricing-list{
+	background: #ffffff;
+}
+.pricetableFour .pricing-list li{
+	padding: 17px 25px;
+	font-size: 16px;
+    font-weight: 600;
+	color: #263238;
+}
+.pricetableFour .pricing-list li:last-child{
+	border-bottom: 0;
+}
+.pricetableFour .btn{
+	font-size: 16px;
+}
+.pricetableFour .green-table .pricing-list li:nth-child(1){
+	background: #22ccb1;
+}
+.pricetableFour .green-table .pricing-list li:nth-child(2){
+	background: #3ddcc0;
+}
+.pricetableFour .green-table .pricing-list li:nth-child(3){
+	background: #4ae6ca;
+}
+.pricetableFour .green-table .pricing-list li:nth-child(4){
+	background: #54eed2;
+}
+.pricetableFour .green-table .pricing-list li:nth-child(5){
+	background: #61f8dc;
+}
+
+.pricetableFour .blue-table .pricing-list li:nth-child(1){
+	background: #3181df;
+}
+.pricetableFour .blue-table .pricing-list li:nth-child(2){
+	background: #428cec;
+}
+.pricetableFour .blue-table .pricing-list li:nth-child(3){
+	background: #5198f8;
+}
+.pricetableFour .blue-table .pricing-list li:nth-child(4){
+	background: #63a6ff;
+}
+.pricetableFour .blue-table .pricing-list li:nth-child(5){
+	background: #78b9ff;
+}
+
+.pricetableFour .yellow-table .pricing-list li:nth-child(1){
+	background: #ffe341;
+}
+.pricetableFour .yellow-table .pricing-list li:nth-child(2){
+	background: #ffea48;
+}
+.pricetableFour .yellow-table .pricing-list li:nth-child(3){
+	background: #ffef4e;
+}
+.pricetableFour .yellow-table .pricing-list li:nth-child(4){
+	background: #fff555;
+}
+.pricetableFour .yellow-table .pricing-list li:nth-child(5){
+	background: #fffb5c;
+}
+
+.pricetableFour .red-table .pricing-list li:nth-child(1){
+	background: #ee5f50;
+}
+.pricetableFour .red-table .pricing-list li:nth-child(2){
+	background: #f57062;
+}
+.pricetableFour .red-table .pricing-list li:nth-child(3){
+	background: #fe8275;
+}
+.pricetableFour .red-table .pricing-list li:nth-child(4){
+	background: #ff9b90;
+}
+.pricetableFour .red-table .pricing-list li:nth-child(5){
+	background: #ffb9b1;
+}
+
+/* ======================================
+	PricetableFour-End
+   ====================================== */
+
+
+
+/* ======================================
+	PricetableFive-Start
+   ====================================== */
+
+@media(max-width: 991px){
+	.pricetableFive .pricetable-wraper{
+		margin-bottom: 100px;
+	}
+}
+.pricetableFive .pricetable-wraper{
+	background: #ffffff;
+    position: relative;
+}
+.pricetableFive .pricing-head{
+	padding: 25px 32px;
+}
+.pricetableFive .pricing-head h3{
+	font-family: 'Gotham-bold';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 45px;
+	color: #ffffff;
+	margin-bottom: 21px;
+	text-transform: uppercase;
+	position: relative;
+}
+.pricetableFive .featured-priceing .pricing-head h3{
+	font-size: 50px;
+    margin-bottom: 29px;
+    margin-top: 15px;
+}
+.pricetableFive .pricing-head h3::before{
+	content: "";
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+	top: 52px;
+	width: 55px;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.31);
+}
+.pricetableFive .blue-table .pricing-head h3::before{
+	top: 60px;
+}
+.pricetableFive .pricing-head p{
+	font-family: 'Gotham-book';
+	font-size: 16px;
+	color: #ffffff;
+    margin-bottom: 36px;
+}
+.pricetableFive .pricing-head .price {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+    font-family: 'Gotham-bold';
+}
+.pricetableFive .pricing-head .price sup{
+	font-family: 'Gotham-book';
+	top: 0;
+}
+.pricetableFive .pricing-head .price sub{
+	font-size: 15px;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+    bottom: 12px;
+    left: 7px;
+}
+.pricetableFive .featured-priceing{
+	position: relative;
+	top: -47px;
+}
+.pricetableFive .featured-priceing .price sup{
+	font-size: 63px;
+}
+.pricetableFive .featured-priceing .price{
+	font-size: 104px;
+}
+.pricetableFive .featured-priceing p{
+	margin-bottom: 60px;
+} 
+.pricetableFive .pricing-list{
+	background: #ffffff;
+}
+.pricetableFive .pricing-list li{
+	padding: 17px 25px;
+	font-size: 16px;
+    font-weight: 600;
+	color: #263238;
+}
+.pricetableFive .pricing-list li:last-child{
+	border-bottom: 0;
+}
+.pricetableFive .btn{
+	font-size: 16px;
+}
+.pricetableFive .green-table .pricing-list li:nth-child(1){
+	background: #22ccb1;
+}
+.pricetableFive .green-table .pricing-list li:nth-child(2){
+	background: #3ddcc0;
+}
+.pricetableFive .green-table .pricing-list li:nth-child(3){
+	background: #4ae6ca;
+}
+.pricetableFive .green-table .pricing-list li:nth-child(4){
+	background: #54eed2;
+}
+.pricetableFive .green-table .pricing-list li:nth-child(5){
+	background: #61f8dc;
+}
+
+.pricetableFive .blue-table .pricing-list li:nth-child(1){
+	background: #3181df;
+}
+.pricetableFive .blue-table .pricing-list li:nth-child(2){
+	background: #428cec;
+}
+.pricetableFive .blue-table .pricing-list li:nth-child(3){
+	background: #5198f8;
+}
+.pricetableFive .blue-table .pricing-list li:nth-child(4){
+	background: #63a6ff;
+}
+.pricetableFive .blue-table .pricing-list li:nth-child(5){
+	background: #78b9ff;
+}
+
+.pricetableFive .yellow-table .pricing-list li:nth-child(1){
+	background: #ffe341;
+}
+.pricetableFive .yellow-table .pricing-list li:nth-child(2){
+	background: #ffea48;
+}
+.pricetableFive .yellow-table .pricing-list li:nth-child(3){
+	background: #ffef4e;
+}
+.pricetableFive .yellow-table .pricing-list li:nth-child(4){
+	background: #fff555;
+}
+.pricetableFive .yellow-table .pricing-list li:nth-child(5){
+	background: #fffb5c;
+}
+
+/* ======================================
+	PricetableFive-End
+   ====================================== */
+
+
+
+/* ======================================
+	PricetableSix-Start
+   ====================================== */
+
+@media(max-width: 991px){
+	.pricetableSix .pricetable-wraper{
+		margin-bottom: 100px;
+	}
+}
+.pricetableSix .pricetable-wraper{
+	background: #ffffff;
+    position: relative;
+}
+.pricetableSix .pricing-head{
+	padding: 25px 32px;
+}
+.pricetableSix .pricing-head h3{
+	font-size: 30px;
+	font-family: 'Gotham-bold';
+	line-height: 45px;
+	color: #ffffff;
+	margin-bottom: 21px;
+	text-transform: uppercase;
+	position: relative;
+}
+.pricetableSix .blue-table .pricing-head h3{
+	font-size: 50px;
+    margin-bottom: 29px;
+    margin-top: 15px;
+}
+.pricetableSix .pricing-head h3::before{
+	content: "";
+	position: absolute;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+	top: 52px;
+	width: 55px;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.31);
+}
+.pricetableSix .blue-table .pricing-head h3::before{
+	top: 60px;
+}
+.pricetableSix .pricing-head p{
+	font-family: 'Gotham-book';
+	font-size: 16px;
+	color: #ffffff;
+    margin-bottom: 36px;
+}
+.pricetableSix .pricing-head .price {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Gotham-bold';
+}
+.pricetableSix .pricing-head .price sup{
+	font-family: 'Gotham-book';
+	top: 0;
+}
+.pricetableSix .pricing-head .price sub{
+	font-size: 15px;
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+    bottom: 12px;
+    left: 7px;
+}
+.pricetableSix .featured-priceing{
+	position: relative;
+	top: -47px;
+}
+.pricetableSix .featured-priceing .price sup{
+	font-size: 63px;
+}
+.pricetableSix .featured-priceing .price{
+	font-size: 104px;
+}
+.pricetableSix .featured-priceing p{
+	margin-bottom: 60px;
+} 
+.pricetableSix .pricing-list{
+	background: #ffffff;
+}
+.pricetableSix .pricing-list li{
+	padding: 17px 25px;
+	font-size: 16px;
+    font-weight: 600;
+	color: #263238;
+}
+.pricetableSix .pricing-list li:last-child{
+	border-bottom: 0;
+}
+.pricetableSix .btn{
+	font-size: 16px;
+}
+.pricetableSix .green-table .pricing-list li:nth-child(1){
+	background: #22ccb1;
+}
+.pricetableSix .green-table .pricing-list li:nth-child(2){
+	background: #3ddcc0;
+}
+.pricetableSix .green-table .pricing-list li:nth-child(3){
+	background: #4ae6ca;
+}
+.pricetableSix .green-table .pricing-list li:nth-child(4){
+	background: #54eed2;
+}
+.pricetableSix .green-table .pricing-list li:nth-child(5){
+	background: #61f8dc;
+}
+
+.pricetableSix .blue-table .pricing-list li:nth-child(1){
+	background: #3181df;
+}
+.pricetableSix .blue-table .pricing-list li:nth-child(2){
+	background: #428cec;
+}
+.pricetableSix .blue-table .pricing-list li:nth-child(3){
+	background: #5198f8;
+}
+.pricetableSix .blue-table .pricing-list li:nth-child(4){
+	background: #63a6ff;
+}
+.pricetableSix .blue-table .pricing-list li:nth-child(5){
+	background: #78b9ff;
+}
+
+/* ======================================
+	PricetableSix-End
+   ====================================== */
+
+
+/* subscribe */
+
+.subscribe-wrapper .btn-default{
+	display: inline-block;
+	line-height: 0;
+}

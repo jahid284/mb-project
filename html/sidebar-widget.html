@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sidebar Widget</title>
+
+	<!-- Web fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,600,700,300' rel='stylesheet' type='text/css'>
+	<!-- gotham fonts -->
+	<link href="assets/fonts/gotham/styles.css" rel="stylesheet">
+    <!-- offcanvas css -->
+    <link href="assets/css/offcanvas.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- bin/jquery.slider.min.css -->
+	<link rel="stylesheet" href="assets/price-range-jquery/css/jslider.css" type="text/css">
+    <!-- morphsearch css -->
+    <link href="assets/morphingsearch/css/style.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Style css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- blog-full css -->
+    <link href="assets/css/sidebar-widget.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/js/modernizr.custom.25376.js"></script>
+  </head>
+
+  <body>
+
+    <div id="perspective" class="perspective effect-airbnb">
+      <div class="inner-wrapper">
+        <div class="wrapper"><!-- wrapper needed for scroll -->
+
+	        <header>
+	            <div class="top-nav-wrapper">
+	              <div class="container clearfix">
+	                <div class="top-contact">
+	                  <span class="tel">Telephone &nbsp; <span>444 1 444</span></span>
+	                  <span class="email">email &nbsp; <a href="mailto:info@mbtheme.com">info@mbtheme.com</a></span>
+	                </div><!-- /.top-contact -->
+
+	                <div class="top-nav">
+	                  <ul>
+	                    <li><a href="#">Corporate</a></li>
+	                    <li><a href="#">FAQ</a></li>
+	                    <li><a href="#">Contact</a></li>
+	                    <li><a href="#">Blog</a></li>
+	                  </ul>
+	                </div><!-- /.top-nav -->
+	              </div><!-- /.container -->
+	            </div><!-- /.top-nav-wrapper -->
+
+	            <nav class="navbar navbar-default">
+	              <div class="container search-box">
+	                <!-- Brand and toggle get grouped for better mobile display -->
+	                <div class="navbar-header">
+	                  <button id="showMenu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                  </button>
+
+	                  <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+	                </div>
+
+	                <!-- Collect the nav links, forms, and other content for toggling -->
+	                <div class="collapse navbar-collapse" id="navbar-collapse">
+	                  <ul class="nav navbar-nav  hidden-sm">
+	                    <li class="active"><a href="#">Home</a></li>
+
+		                <li class="dropdown">
+		                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shortcodes <i class="fa fa-chevron-down"></i></a>
+		                	<ul class="dropdown-menu" role="menu">
+			                  <li><a href="content-boxes.html">Content Boxes</a></li>
+			                  <li><a href="comingsoon.html">Comingsoon Page</a></li>
+			                  <li><a href="landing.html">Landing Page</a></li>
+			                  <li class="dropdown-submenu">
+			                      <a tabindex="-1" href="#">Extra Pages <i class="fa fa-chevron-right"></i></a>
+			                      <ul class="dropdown-menu">
+			                        <li><a tabindex="-1" href="search-results.html">Search Results</a></li>          
+			                        <li><a href="big-search.html">Big Search</a></li>
+			                        <li><a href="image-before-after.html">Image Before After</a></li>
+			                        <li><a href="head-titles.html">Head Titles</a></li>
+			                        <li><a href="sign-up.html">Signup Page</a></li>
+			                        <li><a href="site-map.html">Sitemap</a></li>
+			                      </ul>
+			                  </li>
+			                  <li class="dropdown-submenu">
+			                      <a tabindex="-1" href="#">Carousel Pages <i class="fa fa-chevron-right"></i></a>
+			                      <ul class="dropdown-menu">
+			                        <li><a tabindex="-1" href="carousel-1.html">Carousel One</a></li>                       
+			                        <li><a href="carousel-3.html">Carousel Two</a></li>
+			                        <li><a href="carousel-3.html">Carousel Three</a></li>
+			                      </ul>
+			                  </li>
+			                  <li><a href="team-cta.html">Team</a></li>
+			                  <li><a href="404.html">404 Page</a></li>
+			                  <li><a href="elements.html">Elements Page</a></li>
+			                  <li><a href="headers.html">Headers</a></li>
+			                  <li><a href="footer.html">Footers</a></li>
+		                	</ul>
+		              	</li> <!-- .dropdown -->
+
+		                <li><a href="typography.html">Typography</a></li>
+		                <li><a href="#">e-commerce</a></li>
+
+		                <li class="dropdown">
+		                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-chevron-down"></i></a>
+		                  	<ul class="dropdown-menu" role="menu">
+		                    	<li><a href="blog-full.html">Blog Full</a></li>                 
+		                  		<li><a href="blog-grids.html">Blog Grids</a></li>
+		                      	<li><a href="blog-wide.html">Blog Wide</a></li>
+		                      	<li><a href="blog-timeline.html">Blog Timeline</a></li>
+		                      	<li><a href="single-blogpost-with-sidebar.html">Blogpost with Sidebar</a></li>
+		                  	</ul>
+		              	</li> <!-- .dropdown -->
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+
+		            <div class="morphsearch-wrapper">
+		              <div id="morphsearch" class="morphsearch">
+		                <form class="morphsearch-form">
+		                  <input class="morphsearch-input" type="search" placeholder="" onfocus="this.placeholder = 'theme'" onblur="this.placeholder = ''"  />
+		                  <button class="morphsearch-submit" type="submit">Search</button>
+		                </form>
+		                <div class="morphsearch-content">
+		                  <div class="dummy-column">
+		                    <h2>Pages</h2>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/TooltipStylesInspiration.png" alt=""/>
+		                      <h3>Tooltip Styles Inspiration</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/AnimatedHeaderBackgrounds.png" alt=""/>
+		                      <h3>Animated Background Headers</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/OffCanvas.png" alt=""/>
+		                      <h3>Off-Canvas Menu Effects</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/TabStyles.png" alt=""/>
+		                      <h3>Tab Styles Inspiration</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/ResponsiveSVGs.png" alt="ResponsiveSVGs"/>
+		                      <h3>Make SVGs Responsive with CSS</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/NotificationStyles.png" alt="#"/>
+		                      <h3>Notification Styles Inspiration</h3>
+		                    </a>
+		                  </div>
+		                  <div class="dummy-column">
+		                    <h2>Blog</h2>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/PagePreloadingEffect.png" alt=""/>
+		                      <h3>Page Preloading Effect</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/ArrowNavigationStyles.png" alt=""/>
+		                      <h3>Arrow Navigation Styles</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/HoverEffectsIdeasNew.png" alt=""/>
+		                      <h3>Ideas for Subtle Hover Effects</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/FreebieHalcyonDays.png" alt=""/>
+		                      <h3>Halcyon Days Template</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/ArticleIntroEffects.png" alt=""/>
+		                      <h3>Inspiration for Article Intro Effects</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/DraggableDualViewSlideshow.png" alt=""/>
+		                      <h3>Draggable Dual-View Slideshow</h3>
+		                    </a>
+		                  </div>
+		                  <div class="dummy-column">
+		                    <h2>Recent</h2>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/TooltipStylesInspiration.png" alt=""/>
+		                      <h3>Tooltip Styles Inspiration</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/AnimatedHeaderBackgrounds.png" alt=""/>
+		                      <h3>Animated Background Headers</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/OffCanvas.png" alt=""/>
+		                      <h3>Off-Canvas Menu Effects</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/TabStyles.png" alt=""/>
+		                      <h3>Tab Styles Inspiration</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/ResponsiveSVGs.png" alt="ResponsiveSVGs"/>
+		                      <h3>Make SVGs Responsive with CSS</h3>
+		                    </a>
+		                    <a class="dummy-media-object" href="#">
+		                      <img src="assets/img/thumbs/NotificationStyles.png" alt="#"/>
+		                      <h3>Notification Styles Inspiration</h3>
+		                    </a>
+		                  </div>
+		                </div><!-- /morphsearch-content -->
+		                <span class="morphsearch-close"></span>
+		              </div><!-- /morphsearch -->
+		            </div>
+
+	              </div><!-- /.container -->
+	            </nav>
+	        </header>
+
+		    <!-- page-title-section -->
+		    <section class="page-title-section">
+		      <div class="container">
+		        <div class="page-header-wrapper">
+		          <div class="page-header">
+		              <h1>Sidebar - Widgets</h1>
+		            </div>
+		           <ol class="breadcrumb">
+		            <li><a href="#">Home</a></li>
+		            <li><a href="#">Blog</a></li>
+		            <li class="active">Sidebar - Widgets</li>
+		          </ol>
+		        </div>
+		      </div>
+		    </section>
+		    <!-- end page-title-section -->
+
+
+		    <section class="widget-section">
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+		    				<div class="left-sidebar">
+
+		    					<!-- Testimonial Widget -->
+		    					<aside class="widget testimonial-widget">
+  									<div class="widge-title">
+  										<h2>Testimonial</h2>
+		    						</div>
+
+		    						<div class="testimonial-text">
+		    							<p>Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		    						</div>
+
+		    						<div class="media clearfix">
+			                <a class="pull-left" href="#">
+			                  <img class="media-object" src="assets/img/testimonial.jpg" alt="">
+			                </a>
+			                <div class="media-body">
+			                  <h3>Jeffery Hicks</h3>
+			                  <span class="media-title">Chief Officer</span>
+			                </div>
+			              </div>
+		    					</aside><!-- /.Testimonial Widget -->
+
+
+									<!-- Search Widget -->
+		    					<aside class="widget search-widget">
+		    						<div class="widge-title">
+		    							<h2>Search</h2>
+		    						</div>
+		    						<form class="search">
+		                  <input type="text" class="form-control" placeholder="Search">
+		                  <i class="fa fa-search"></i>
+		                </form><!-- /.search -->
+		    					</aside><!-- /.Search Widget end-->
+
+									
+									<!-- popular-product Widget -->
+		    					<aside class="widget popular-product-widget">
+		    						<div class="cart-wrapper">
+											<div class="cart-wrapper-inner">
+												<h2>Popular Products</h2>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/shoe.jpg" alt="">
+													
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/bag.jpg" alt="">
+											
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/watch.jpg" alt="">
+									
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/boot-shoe.jpg" alt="">
+									
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+											</div><!-- /.cart-wrapper-inner -->
+										</div><!-- /.cart-wrapper -->
+  								</aside><!-- /.popular-product Widget -->
+
+
+									<!-- widget_product_categories -->
+  								<aside class="widget widget_product_categories">
+		                <div class="widge-title">
+		    							<h2>Product Categories</h2>
+		    						</div>
+
+		                <div class="panel-group" id="accordionOneLeft">
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a data-toggle="collapse" data-parent="#accordionOneLeft" href="#collapseLeftone" aria-expanded="true">
+		                          Car
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseLeftone" class="panel-collapse collapse in" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default --> 
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneLeft" href="#collapseLeftTwo" aria-expanded="false">
+		                          Computer
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseLeftTwo" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default --> 
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneLeft" href="#collapseLeftThree" aria-expanded="false">
+		                          House
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseLeftThree" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default -->
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneLeft" href="#collapseLeftFour" aria-expanded="false">
+		                          Beauty
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseLeftFour" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default -->
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneLeft" href="#collapseLeftFive" aria-expanded="false">
+		                          Cosmetic
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseLeftFive" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default -->                            
+		                </div><!--end of /.panel-group-->
+		              </aside><!-- /.widget_product_categories -->
+
+
+
+									<!-- widget_price_filter -->
+		              <aside class="widget_price_filter">
+		              	<div class="widge-title">
+		    							<h2>Product Filter</h2>
+		    						</div>
+
+
+		    						<div class="filter-wraper">
+			    						<h3>Price</h3>
+			    						<div class="layout">
+										    <div class="layout-slider">
+											       <input id="Slider1" type="slider" name="price" value="30000.5;60000" />
+											   </div>
+											</div><!-- /.layout -->
+
+											<div class="price-filter">
+												<div class="price-content">
+													<h4>Start</h4>
+													<span>$100</span>
+												</div>
+
+												<div class="price-content">
+													<h4>End</h4>
+													<span>$300</span>
+												</div>
+											</div>
+			    					</div><!-- filter-wraper -->
+
+
+			    					<div class="brand-wraper">
+		    							<h3>BRANDS</h3>
+		    							<span>clear</span>
+
+			    						<div class="btn-radio-section">
+								            <div class="radio-button">
+								              <input type="radio" id="radio001" name="radio">
+								              <label for="radio001"><span></span>Apple</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio002" name="radio">
+								              <label for="radio002"><span></span>Samsung</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio003" name="radio">
+								              <label for="radio003"><span></span>Sony</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio004" name="radio">
+								              <label for="radio004"><span></span>Lg</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio005" name="radio">
+								              <label for="radio005"><span></span>Technice</label>
+								            </div>
+								       </div>
+			    					</div><!-- /.brand-wraper -->
+
+			    					<div class="color-wraper">
+			    						<h3>Colors</h3>
+			    						<span>clear</span>
+
+								        <div class="btn-radio-section">
+					                <div class="radio-button">
+					                  <input type="radio" id="radio01" name="radio">
+					                  <label for="radio01"><span></span>Green</label>
+					                </div>
+
+					                <div class="radio-button">
+					                  <input type="radio" id="radio02" name="radio">
+					                  <label for="radio02"><span></span>Blue</label>
+					                </div>
+					                <div class="radio-button">
+					                  <input type="radio" id="radio03" name="radio">
+					                  <label for="radio03"><span></span>Yellow</label>
+					                </div>
+					                <div class="radio-button">
+					                  <input type="radio" id="radio04" name="radio">
+					                  <label for="radio04"><span></span>Red</label>
+					                </div>
+					                <div class="radio-button">
+					                  <input type="radio" id="radio05" name="radio">
+					                  <label for="radio05"><span></span>Orange</label>
+					                </div>
+					              </div>
+
+									        <h3>Rate</h3>
+									        <ul class="list-inline">
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        </ul>
+									        <a href="#" class="btn btn-primary btn-block">Filter It</a>
+				    				</div><!-- /.color-wraper -->
+		              </aside><!-- /.widget_price_filter -->
+
+
+									
+
+									<!-- Blog Tag -->
+									<aside class="widget widget_blog_tag">
+										<div class="widge-title">
+		    							<h2>Blog Tags</h2>
+		    						</div>
+
+		    						<div class="blog-tag-style-one clearfix">
+		    							<ul class="list-inline">
+                        <li><a class="default" href="#">Label</a></li>
+                        <li><a class="success" href="#">Label</a></li>
+                        <li><a class="denger" href="#">Label</a></li>
+                        <li><a class="info" href="#">Label</a></li>
+                        <li><a class="pupple" href="#">Label</a></li>
+                      </ul>
+		    						</div>
+
+
+		    						<div class="blog-tag-style-two clearfix">
+		    							<ul class="list-inline">
+                        <li><a href="#">Label</a></li>
+                        <li class="active"><a href="#">Label</a></li>
+                      </ul>
+		    						</div>
+
+
+		    						<div class="blog-tag-style-three clearfix">
+	    								<ul class="list-inline">
+                        <li><a href="#">Label</a></li>
+                        <li><a href="#">Label</a></li>
+                        <li class="badge-tag">
+                        	<a href="#">Label</a>
+                        	<span class="badge">23</span>
+                        </li>
+                      </ul>
+		    						</div>
+
+
+		    						<div class="blog-tag-style-four clearfix">
+	    								<ul class="list-inline">
+                        <li><a class="success" href="#">Label</a></li>
+                        <li><a class="denger" href="#">Label</a></li>
+                        <li class="badge-tag">
+                        	<a href="#">Label</a>
+                        	<span class="badge">23</span>
+                        </li>
+                      </ul>
+		    						</div>
+
+									</aside>
+									<!-- /.Blog Tag -->
+
+
+
+									
+
+
+									<!-- widget_recent_post_style_one -->
+		              <aside class="widget widget_recent_post_style_one">
+		                <div class="widge-title">
+		    							<h2>Recent Posts</h2>
+		    						</div>
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-one.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+		              </aside><!-- /.widget_recent_post_style_one -->
+
+
+
+
+		              <!-- widget_recent_post_style_two -->
+		              <aside class="widget widget_recent_post_style_two">
+		                <div class="widge-title">
+		    							<h2>Recent Posts</h2>
+		    						</div>
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-one.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+		              </aside><!-- /.widget_recent_post_style_two -->
+
+
+									<!-- widget_newsletter -->
+		              <aside class="widget widget_newsletter">
+		              	<div class="widge-title">
+		    							<h2>Join Our Newsletter</h2>
+		    						</div>
+
+		                <form class="">
+		                  <div class="form-group">
+		                    <label for="EmailOne" class="sr-only">Email</label>
+		                    <input type="email" class="form-control" id="EmailOne" placeholder="Your E-mail ">
+		                  </div>
+		                  <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+		                </form>
+		              </aside><!-- /.widget_newsletter end -->
+
+
+
+		              <!-- widget_nav -->
+		              <aside class="widget widget_nav">
+		              	<div class="widge-title">
+		    							<h2>Menu</h2>
+		    						</div>
+		                <ul class="list-unstyled">
+		                  <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Homepage</a></li>
+		                  <li class="active"><a href="#"><i class="fa fa-chevron-circle-right"></i> Blog</a></li>
+		                  <li><a href="#"><i class="fa fa-chevron-circle-right"></i> About</a></li>
+		                  <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Contact</a></li>
+		                </ul>
+		              </aside><!-- /.widget_nav -->
+
+
+
+		              <!-- Widget Clients  -->
+		              <aside class="widget widget_clients text-center">
+		                <div id="widget-client-slider" class="carousel slide" data-ride="carousel">
+		                  <!-- Wrapper for slides -->
+		                  <div class="carousel-inner" role="listbox">
+		                    <div class="item active">
+		                      <img src="assets/img/client.jpg" class="img-responsive " alt="Image">
+		                      <h4>Nathaniel Myers</h4>
+		                      <span>Vice President</span>
+		                      <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis </p>
+
+		                      <ul class="list-inline social-links">
+		                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                      </ul>
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client.jpg" class="img-responsive " alt="Image">
+		                      <h4>Nathaniel Myers</h4>
+		                      <span>Vice president</span>
+		                      <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis </p>
+
+		                      <ul class="list-inline social-links">
+		                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                      </ul>
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client.jpg" class="img-responsive " alt="Image">
+		                      <h4>Nathaniel Myers</h4>
+		                      <span>Vice president</span>
+		                      <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis </p>
+
+		                      <ul class="list-inline social-links">
+		                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                      </ul>
+		                    </div>
+		                  </div>
+
+		                  <!-- Indicators -->
+		                  <ol class="carousel-indicators">
+		                    <li data-target="#widget-client-slider" data-slide-to="0" class="active"></li>
+		                    <li data-target="#widget-client-slider" data-slide-to="1"></li>
+		                    <li data-target="#widget-client-slider" data-slide-to="2"></li>
+		                  </ol>
+
+
+		                </div>
+		              </aside>
+		              <!-- /.Widget Clients  -->
+
+
+
+
+		              <!-- Widget client logo -->
+		              <aside class="widget_client_logo">
+
+		              	<div id="widget-client-slider-two" class="carousel slide" data-ride="carousel">
+		                  <!-- Wrapper for slides -->
+		                  <div class="carousel-inner" role="listbox">
+		                    <div class="item active">
+		                      <img src="assets/img/client-logo.png" class="img-responsive " alt="Image">
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client-logo.png" class="img-responsive " alt="Image">
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client-logo.png" class="img-responsive " alt="Image">
+		                    </div>
+		                  </div>
+
+		                  <!-- Indicators -->
+		                  <ol class="carousel-indicators">
+		                    <li data-target="#widget-client-slider-two" data-slide-to="0" class="active"></li>
+		                    <li data-target="#widget-client-slider-two" data-slide-to="1"></li>
+		                    <li data-target="#widget-client-slider-two" data-slide-to="2"></li>
+		                  </ol>
+
+
+		                </div>
+		              	
+		              </aside>
+		              <!-- /.Widget client logo -->
+
+
+
+		              <!-- Widget Blog Categories -->
+		              <aside class="widget widget_blog_categories">
+		              	<div class="widge-title">
+		    							<h2>Blog Categories</h2>
+		    						</div>
+
+		    						<div class="blog-categories">
+                      <ul class="list-unstyled">
+                        <li><a href="#">Categories 1 <span class="badge pull-right">42</span></a></li>
+                        <li><a href="#">News <span class="badge pull-right">42</span></a></li>
+                        <li><a href="#">For Fun <span class="badge pull-right">42</span></a></li>
+                        <li><a href="#">Sports <span class="badge pull-right">42</span></a></li>
+                      </ul>
+                    </div>
+		              </aside>
+		              <!-- /.Widget Blog Categories -->
+
+
+
+		              
+
+
+
+
+		    				</div>
+		    			</div><!--/. end of col-md-4-->
+
+		    			<div class="col-lg-5 col-md-hidden"></div><!--/. end of col-md-5-->
+		    			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		    				<div class="right-sidebar">
+
+		    					<!-- Testimonial Widget -->
+		    					<aside class="widget testimonial-widget">
+  									<div class="widge-title">
+  										<h2>Testimonial</h2>
+		    						</div>
+
+		    						<div class="testimonial-text">
+		    							<p>Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+		    						</div>
+
+		    						<div class="media clearfix">
+			                <a class="pull-left" href="#">
+			                  <img class="media-object" src="assets/img/testimonial.jpg" alt="">
+			                </a>
+			                <div class="media-body">
+			                  <h3>Jeffery Hicks</h3>
+			                  <span class="media-title">Chief Officer</span>
+			                </div>
+			              </div>
+		    					</aside><!-- /.Testimonial Widget -->
+
+
+		    					<!-- Search Widget -->
+		    					<aside class="widget search-widget">
+		    						<div class="widge-title">
+		    							<h2>Search</h2>
+		    						</div>
+		    						<form class="search">
+		                  <input type="text" class="form-control" placeholder="Search">
+		                  <i class="fa fa-search"></i>
+		                </form><!-- /.search -->
+		    					</aside><!-- /.Search Widget end-->
+
+
+		    					<!-- popular-product Widget -->
+		    					<aside class="widget popular-product-widget text-center">
+		    						<div class="cart-wrapper">
+											<div class="cart-wrapper-inner">
+												<h2>Popular Products</h2>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/shoe.jpg" alt="">
+													
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/bag.jpg" alt="">
+											
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/watch.jpg" alt="">
+									
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+												<div class="item-wrapper clearfix">
+													<img src="assets/img/product-cart/boot-shoe.jpg" alt="">
+									
+													<div class="product-details">
+														<h3 class="title">Sneaker</h3>
+														<span class="number">$399</span>
+													</div>
+												</div>
+
+											</div><!-- /.cart-wrapper-inner -->
+										</div><!-- /.cart-wrapper -->
+  								</aside><!-- /.popular-product Widget -->
+
+
+  								<!-- widget_product_categories -->
+  								<aside class="widget widget_product_categories">
+		                <div class="widge-title">
+		    							<h2>Product Categories</h2>
+		    						</div>
+
+		                <div class="panel-group" id="accordionOneRight">
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a data-toggle="collapse" data-parent="#accordionOneRight" href="#collapseRightone" aria-expanded="true">
+		                          Car
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseRightone" class="panel-collapse collapse in" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default --> 
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneRight" href="#collapseRightTwo" aria-expanded="false">
+		                          Computer
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseRightTwo" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default --> 
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneRight" href="#collapseRightThree" aria-expanded="false">
+		                          House
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseRightThree" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default -->
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneRight" href="#collapseRightFour" aria-expanded="false">
+		                          Beauty
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseRightFour" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default -->
+		                  <div class="panel panel-default">
+		                    <div class="panel-heading">
+		                      <h4 class="panel-title">
+		                        <a class="collapsed" data-toggle="collapse" data-parent="#accordionOneRight" href="#collapseRightFive" aria-expanded="false">
+		                          Cosmetic
+		                        </a>
+		                      </h4>
+		                    </div>
+		                    <div id="collapseRightFive" class="panel-collapse collapse" aria-expanded="false">
+		                      <div class="panel-body">
+		                        <ul class="list-unstyled">
+		                          <li><a href="#">Lorem <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Ipsum <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Dolor <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Sit <span class="badge pull-right">42</span></a></li>
+		                          <li><a href="#">Amet <span class="badge pull-right">42</span></a></li>
+		                        </ul>
+		                      </div>
+		                    </div>
+		                  </div><!-- /.panel-default -->                            
+		                </div><!--end of /.panel-group-->
+		              </aside><!-- /.widget_product_categories -->
+
+
+		              <!-- widget_price_filter -->
+		              <aside class="widget_price_filter">
+		              	<div class="widge-title">
+		    							<h2>Product Filter</h2>
+		    						</div>
+
+
+		    						<!-- <div class="filter-wraper">
+			    						<h3>Price</h3>
+			    						<div class="layout">
+										    <div class="layout-slider">
+											       <input id="Slider1" type="slider" name="price" value="30000.5;60000" />
+											   </div>
+											</div> --><!-- /.layout -->
+
+											<!-- <div class="price-filter">
+												<div class="price-content">
+													<h4>Start</h4>
+													<span>$100</span>
+												</div>
+
+												<div class="price-content">
+													<h4>End</h4>
+													<span>$300</span>
+												</div>
+											</div>
+			    					</div> --> <!-- filter-wraper -->
+
+
+			    					<div class="brand-wraper">
+		    							<h3>BRANDS</h3>
+		    							<span>clear</span>
+
+			    						<div class="btn-radio-section">
+								            <div class="radio-button">
+								              <input type="radio" id="radio001" name="radio">
+								              <label for="radio001"><span></span>Apple</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio002" name="radio">
+								              <label for="radio002"><span></span>Samsung</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio003" name="radio">
+								              <label for="radio003"><span></span>Sony</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio004" name="radio">
+								              <label for="radio004"><span></span>Lg</label>
+								            </div>
+								            <div class="radio-button">
+								              <input type="radio" id="radio005" name="radio">
+								              <label for="radio005"><span></span>Technice</label>
+								            </div>
+								       </div>
+			    					</div><!-- /.brand-wraper -->
+
+			    					<div class="color-wraper">
+			    						<h3>Colors</h3>
+			    						<span>clear</span>
+
+								        <div class="btn-radio-section">
+					                <div class="radio-button">
+					                  <input type="radio" id="radio01" name="radio">
+					                  <label for="radio01"><span></span>Green</label>
+					                </div>
+
+					                <div class="radio-button">
+					                  <input type="radio" id="radio02" name="radio">
+					                  <label for="radio02"><span></span>Blue</label>
+					                </div>
+					                <div class="radio-button">
+					                  <input type="radio" id="radio03" name="radio">
+					                  <label for="radio03"><span></span>Yellow</label>
+					                </div>
+					                <div class="radio-button">
+					                  <input type="radio" id="radio04" name="radio">
+					                  <label for="radio04"><span></span>Red</label>
+					                </div>
+					                <div class="radio-button">
+					                  <input type="radio" id="radio05" name="radio">
+					                  <label for="radio05"><span></span>Orange</label>
+					                </div>
+					              </div>
+
+									        <h3>Rate</h3>
+									        <ul class="list-inline">
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        	<li><i class="fa fa-star"></i></li>
+									        </ul>
+									        <a href="#" class="btn btn-primary btn-block">Filter It</a>
+				    				</div><!-- /.color-wraper -->
+		              </aside><!-- /.widget_price_filter -->
+
+
+
+		              <!-- Blog Tag -->
+									<aside class="widget widget_blog_tag">
+										<div class="widge-title">
+		    							<h2>Blog Tags</h2>
+		    						</div>
+
+		    						<div class="blog-tag-style-one tag-style-one-right">
+		    							<ul class="list-inline">
+                        <li><a class="default" href="#">Label</a></li>
+                        <li><a class="success" href="#">Label</a></li>
+                        <li><a class="denger" href="#">Label</a></li>
+                        <li><a class="info" href="#">Label</a></li>
+                        <li><a class="pupple" href="#">Label</a></li>
+                      </ul>
+		    						</div>
+
+
+		    						<div class="blog-tag-style-two tag-style-two-right">
+		    							<ul class="list-inline">
+                        <li><a href="#">Label</a></li>
+                        <li class="active"><a href="#">Label</a></li>
+                      </ul>
+		    						</div>
+
+
+		    						<div class="blog-tag-style-three tag-style-three-right">
+	    								<ul class="list-inline">
+                        <li><a href="#">Label</a></li>
+                        <li><a href="#">Label</a></li>
+                        <li class="badge-tag">
+                        	<a href="#">Label</a>
+                        	<span class="badge">23</span>
+                        </li>
+                      </ul>
+		    						</div>
+
+
+		    						<div class="blog-tag-style-four tag-style-four-right">
+	    								<ul class="list-inline">
+                        <li><a class="success" href="#">Label</a></li>
+                        <li><a class="denger" href="#">Label</a></li>
+                        <li class="badge-tag">
+                        	<a href="#">Label</a>
+                        	<span class="badge">23</span>
+                        </li>
+                      </ul>
+		    						</div>
+
+									</aside>
+									<!-- /.Blog Tag -->
+
+
+
+									<!-- widget_recent_post_style_one -->
+		              <aside class="widget widget_recent_post_style_one">
+		                <div class="widge-title">
+		    							<h2>Recent Posts</h2>
+		    						</div>
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-one.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+		              </aside><!-- /.widget_recent_post_style_one -->
+
+
+
+
+		              <!-- widget_recent_post_style_two -->
+		              <aside class="widget widget_recent_post_style_two">
+		                <div class="widge-title">
+		    							<h2>Recent Posts</h2>
+		    						</div>
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-one.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+
+
+		                <div class="media">
+		                  <a class="pull-left" href="#"><img class="media-object" src="assets/img/recent-product/product-two.jpg" alt=""></a>
+		                  <div class="media-body">
+		                    <h4 class="media-heading"><a href="#">Maecenas fauci interdum. </a></h4>
+		                    <span class="post-date">20 Aralık Cuma</span>
+		                    <span class="author">by <a href="#">Admin</a></span>
+		                  </div>
+		                </div>
+		              </aside><!-- /.widget_recent_post_style_two -->
+
+
+									<!-- widget_newsletter -->
+		              <aside class="widget widget_newsletter">
+		              	<div class="widge-title">
+		    							<h2>Join Our Newsletter</h2>
+		    						</div>
+
+		                <form class="">
+		                  <div class="form-group">
+		                    <label for="EmailOne" class="sr-only">Email</label>
+		                    <input type="email" class="form-control" id="EmailOne" placeholder="Your E-mail ">
+		                  </div>
+		                  <button type="submit" class="btn btn-primary btn-block">Subscribe</button>
+		                </form>
+		              </aside><!-- /.widget_newsletter end -->
+
+
+
+		              <!-- widget_nav -->
+		              <aside class="widget widget_nav">
+		              	<div class="widge-title">
+		    							<h2>Menu</h2>
+		    						</div>
+		                <ul class="list-unstyled">
+		                  <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Homepage</a></li>
+		                  <li class="active"><a href="#"><i class="fa fa-chevron-circle-right"></i> Blog</a></li>
+		                  <li><a href="#"><i class="fa fa-chevron-circle-right"></i> About</a></li>
+		                  <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Contact</a></li>
+		                </ul>
+		              </aside><!-- /.widget_nav -->
+
+
+
+		              <!-- Widget Clients  -->
+		              <aside class="widget widget_clients text-center">
+		                <div id="widget-client-slider-right-sidebar" class="carousel slide" data-ride="carousel">
+		                  <!-- Wrapper for slides -->
+		                  <div class="carousel-inner" role="listbox">
+		                    <div class="item active">
+		                      <img src="assets/img/client.jpg" class="img-responsive " alt="Image">
+		                      <h4>Nathaniel Myers</h4>
+		                      <span>Vice President</span>
+		                      <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis </p>
+
+		                      <ul class="list-inline social-links">
+		                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                      </ul>
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client.jpg" class="img-responsive " alt="Image">
+		                      <h4>Nathaniel Myers</h4>
+		                      <span>Vice president</span>
+		                      <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis </p>
+
+		                      <ul class="list-inline social-links">
+		                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                      </ul>
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client.jpg" class="img-responsive " alt="Image">
+		                      <h4>Nathaniel Myers</h4>
+		                      <span>Vice president</span>
+		                      <p>Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis </p>
+
+		                      <ul class="list-inline social-links">
+		                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+		                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		                      </ul>
+		                    </div>
+		                  </div>
+
+		                  <!-- Indicators -->
+		                  <ol class="carousel-indicators">
+		                    <li data-target="#widget-client-slider-right-sidebar" data-slide-to="0" class="active"></li>
+		                    <li data-target="#widget-client-slider-right-sidebar" data-slide-to="1"></li>
+		                    <li data-target="#widget-client-slider-right-sidebar" data-slide-to="2"></li>
+		                  </ol>
+
+
+		                </div>
+		              </aside>
+		              <!-- /.Widget Clients  -->
+
+
+
+
+		              <!-- Widget client logo -->
+		              <aside class="widget_client_logo">
+
+		              	<div id="widget-client-slider-two-right-sidebar" class="carousel slide" data-ride="carousel">
+		                  <!-- Wrapper for slides -->
+		                  <div class="carousel-inner" role="listbox">
+		                    <div class="item active">
+		                      <img src="assets/img/client-logo-two.png" class="img-responsive" alt="Image">
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client-logo-two.png" class="img-responsive" alt="Image">
+		                    </div>
+		                    <div class="item">
+		                      <img src="assets/img/client-logo-two.png" class="img-responsive" alt="Image">
+		                    </div>
+		                  </div>
+
+		                  <!-- Indicators -->
+		                  <ol class="carousel-indicators">
+		                    <li data-target="#widget-client-slider-two-right-sidebar" data-slide-to="0" class="active"></li>
+		                    <li data-target="#widget-client-slider-two-right-sidebar" data-slide-to="1"></li>
+		                    <li data-target="#widget-client-slider-two-right-sidebar" data-slide-to="2"></li>
+		                  </ol>
+
+
+		                </div>
+		              	
+		              </aside>
+		              <!-- /.Widget client logo -->
+
+
+
+		              <!-- Widget Blog Categories -->
+		              <aside class="widget widget_blog_categories">
+		              	<div class="widge-title">
+		    							<h2>Blog Categories</h2>
+		    						</div>
+
+		    						<div class="blog-categories">
+                      <ul class="list-unstyled">
+                        <li><a href="#">Categories 1 <span class="badge pull-right">42</span></a></li>
+                        <li><a href="#">News <span class="badge pull-right">42</span></a></li>
+                        <li><a href="#">For Fun <span class="badge pull-right">42</span></a></li>
+                        <li><a href="#">Sports <span class="badge pull-right">42</span></a></li>
+                      </ul>
+                    </div>
+		              </aside>
+		              <!-- /.Widget Blog Categories -->
+
+
+		    				</div>
+		    			</div><!--/. end of col-md-3-->
+		    		</div><!-- /.row -->
+		    	</div>
+		    </section>
+
+
+		    <!-- subscribe-wrapper -->
+		    <section class="subscribe-wrapper">
+		        <div class="container text-center">
+		      <h2>subscribe email</h2>
+		      <form class="form-inline">
+		        <div class="form-group">
+		          <label class="sr-only" for="subscriptionEmail">Email</label>
+		          <input type="email" class="form-control" id="subscriptionEmail" placeholder="Enter your email address">
+		        </div>
+		        <button type="submit" class="btn btn-default">Send</button>
+		      </form>
+
+		        </div>
+		    </section>
+		    <!-- end subscribe-wrapper -->
+
+		  
+			<!-- footer-section -->
+			<footer class="footer-section">
+				<div class="footer-widget-wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-12">
+								<img class="footer-logo" src="assets/img/footer-logo.png" alt="">
+								<div class="footer-widget widget_text">
+									<h3>about</h3>
+									<p>Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-3">
+								<div class="footer-widget">
+									<h3>project</h3>
+									<ul>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">id ligula porta</a></li>
+										<li><a href="#">felis euismod </a></li>
+										<li><a href="#">semper Aenean</a></li>
+										<li><a href="#">lacinia bibendum</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-3">
+								<div class="footer-widget">
+									<h3>services</h3>
+									<ul>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">id ligula porta</a></li>
+										<li><a href="#">felis euismod </a></li>
+										<li><a href="#">semper Aenean</a></li>
+										<li><a href="#">lacinia bibendum</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-3">
+								<div class="footer-widget">
+									<h3>clients</h3>
+									<ul>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">id ligula porta</a></li>
+										<li><a href="#">felis euismod </a></li>
+										<li><a href="#">semper Aenean</a></li>
+										<li><a href="#">lacinia bibendum</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-2 col-sm-3">
+								<div class="footer-widget">
+									<h3>contacts</h3>
+									<ul>
+										<li><a href="#">Vestibulum</a></li>
+										<li><a href="#">id ligula porta</a></li>
+										<li><a href="#">felis euismod </a></li>
+										<li><a href="#">semper Aenean</a></li>
+										<li><a href="#">lacinia bibendum</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /.footer-widget-wrapper -->
+
+				<div class="footer-nav-wrapper clearfix">
+					<div class="container">
+						<div class="footer-nav pull-left">
+							<ul>
+								<li><a href="#">faq</a></li>
+								<li><a href="#">help</a></li>
+								<li><a href="#">sitemap</a></li>
+								<li><a href="#">blog</a></li>
+							</ul>
+						</div>
+						<div class="copyright pull-right">
+							Copyright &copy; 2015 MB Theme
+						</div>
+					</div>
+				</div><!-- /.footer-nav-wrapper -->
+			</footer>
+			<!-- end footer-section -->
+
+        </div><!-- wrapper -->
+      </div><!-- inner-wrapper -->
+
+	    <nav class="outer-nav left vertical">
+	        <a href="#"><i class="fa fa-home"></i> Home</a>
+	        <a href="#"><i class="fa fa-newspaper-o"></i> News</a>
+	        <a href="#"><i class="fa fa-picture-o"></i> Images</a>
+	        <a href="#"><i class="fa fa-upload"></i> Uploads</a>
+	        <a href="#"><i class="fa fa-heart"></i> Favorites</a>
+	        <a href="#"><i class="fa fa-envelope"></i> Messages</a>
+	        <a href="#"><i class="fa fa-lock"></i> Security</a>
+	    </nav>
+    </div><!-- /perspective -->
+
+	<!-- jQuery -->
+	<script src="assets/js/jquery-2.1.4.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/menu.js"></script>
+	<!-- bin/jquery.slider.min.js -->
+	<script type="text/javascript" src="assets/price-range-jquery/js/jshashtable-2.1_src.js"></script>
+	<script type="text/javascript" src="assets/price-range-jquery/js/jquery.numberformatter-1.2.3.js"></script>
+	<script type="text/javascript" src="assets/price-range-jquery/js/tmpl.js"></script> 
+	<script type="text/javascript" src="assets/price-range-jquery/js/jquery.dependClass-0.1.js"></script>
+	<script type="text/javascript" src="assets/price-range-jquery/js/draggable-0.1.js"></script> 
+	<script type="text/javascript" src="assets/price-range-jquery/js/jquery.slider.js"></script>
+	<script src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+	<script src="assets/morphingsearch/js/classie.js"></script>
+	<script src="assets/js/twitterFetcher.min.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/sidebar-widget.js"></script>
+    
+    <script>
+      (function() {
+        var morphSearch = document.getElementById( 'morphsearch' ),
+          input = morphSearch.querySelector( 'input.morphsearch-input' ),
+          ctrlClose = morphSearch.querySelector( 'span.morphsearch-close' ),
+          isOpen = isAnimating = false,
+          // show/hide search area
+          toggleSearch = function(evt) {
+            // return if open and the input gets focused
+            if( evt.type.toLowerCase() === 'focus' && isOpen ) return false;
+
+            var offsets = morphsearch.getBoundingClientRect();
+            if( isOpen ) {
+              classie.remove( morphSearch, 'open' );
+
+              // trick to hide input text once the search overlay closes 
+              // todo: hardcoded times, should be done after transition ends
+              if( input.value !== '' ) {
+                setTimeout(function() {
+                  classie.add( morphSearch, 'hideInput' );
+                  setTimeout(function() {
+                    classie.remove( morphSearch, 'hideInput' );
+                    input.value = '';
+                  }, 300 );
+                }, 500);
+              }
+              
+              input.blur();
+            }
+            else {
+              classie.add( morphSearch, 'open' );
+            }
+            isOpen = !isOpen;
+          };
+
+        // events
+        input.addEventListener( 'focus', toggleSearch );
+        ctrlClose.addEventListener( 'click', toggleSearch );
+        // esc key closes search overlay
+        // keyboard navigation events
+        document.addEventListener( 'keydown', function( ev ) {
+          var keyCode = ev.keyCode || ev.which;
+          if( keyCode === 27 && isOpen ) {
+            toggleSearch(ev);
+          }
+        } );
+
+
+        /***** for demo purposes only: don't allow to submit the form *****/
+        morphSearch.querySelector( 'button[type="submit"]' ).addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+      })();
+    </script>
+
+  </body>
+</html>
